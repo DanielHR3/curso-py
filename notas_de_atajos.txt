@@ -1,0 +1,2 @@
+# shift + alt + flecha abajo para duplicar una linea
+# alt + 92 para escribir una diagonal invertida
