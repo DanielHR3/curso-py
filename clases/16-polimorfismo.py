@@ -1,18 +1,12 @@
-from abc import ABC, abstractmethod
-
-class Model(ABC):
-    @abstractmethod
-    def guadar(self):
-        pass
 
 
 
-class Usuario(Model):
+class Usuario():
     def guadar(self):
         print("Guardando en BBDD")
 
 
-class Sesion (Model):
+class Sesion ():
     def guadar(self):
         print("Guardando archivo")
 
